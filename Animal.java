@@ -9,6 +9,7 @@ public class Animal {
         this.age = ageParameter;
     }
 
+    //TODO metoda toString powinna być na dole klasy
     @Override
     public String toString() {
         return "To zwierzę wabi się " + name + ". " + name + " żyje już " + age + ".";

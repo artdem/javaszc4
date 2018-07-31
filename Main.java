@@ -117,6 +117,8 @@ public class Main {
 //      W poleceniu dotyczącym wyświetlania książek, które mają powyżej 200 stron zmieniłem zakres na 400,
 //      ponieważ wszystkie książki umieszczone w spełniały ten warunek.
 
+        //TODO ok :)
+
         System.out.println("\nWyświetlam książki, które mają ponad 400 stron.");
         for (Book i : bookList) {
             if (i.getPages() > 400) {
